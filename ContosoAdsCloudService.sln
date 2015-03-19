@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "ContosoAdsCloudService", "ContosoAdsCloudService\ContosoAdsCloudService.ccproj", "{10CA527F-2E30-4C29-A28B-7423A44C0E79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoAdsWeb", "ContosoAdsWeb\ContosoAdsWeb.csproj", "{1E0882A8-E6FA-4161-8890-F88D8E5D26BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoAdsWorker", "ContosoAdsWorker\ContosoAdsWorker.csproj", "{1F491CF3-BFB0-46AA-9DE2-E59A5100F491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoAdsCommon", "ContosoAdsCommon\ContosoAdsCommon.csproj", "{8C1B7CD8-022B-4E9E-92DB-F7578955B0CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10CA527F-2E30-4C29-A28B-7423A44C0E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10CA527F-2E30-4C29-A28B-7423A44C0E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10CA527F-2E30-4C29-A28B-7423A44C0E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10CA527F-2E30-4C29-A28B-7423A44C0E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0882A8-E6FA-4161-8890-F88D8E5D26BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0882A8-E6FA-4161-8890-F88D8E5D26BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0882A8-E6FA-4161-8890-F88D8E5D26BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0882A8-E6FA-4161-8890-F88D8E5D26BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F491CF3-BFB0-46AA-9DE2-E59A5100F491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F491CF3-BFB0-46AA-9DE2-E59A5100F491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F491CF3-BFB0-46AA-9DE2-E59A5100F491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F491CF3-BFB0-46AA-9DE2-E59A5100F491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1B7CD8-022B-4E9E-92DB-F7578955B0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1B7CD8-022B-4E9E-92DB-F7578955B0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1B7CD8-022B-4E9E-92DB-F7578955B0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1B7CD8-022B-4E9E-92DB-F7578955B0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
