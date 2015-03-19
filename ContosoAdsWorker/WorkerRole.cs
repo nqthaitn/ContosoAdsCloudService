@@ -40,7 +40,7 @@ namespace ContosoAdsWorker
                     // Retrieve a new message from the queue.
                     // A production app could be more efficient and scalable and conserve
                     // on transaction costs by using the GetMessages method to get
-                    // multiple queue messages at a time. See:.
+                    // multiple queue messages at a time. See:..
                     // http://azure.microsoft.com/en-us/documentation/articles/cloud-services-dotnet-multi-tier-app-storage-5-worker-role-b/#addcode
                     msg = this.imagesQueue.GetMessage();
                     if (msg != null)
